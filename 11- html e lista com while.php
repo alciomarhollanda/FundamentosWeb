@@ -9,10 +9,14 @@
 <body>
     <h2>HTML Lists</h2>
 
+<?php
+  echo "<h1> Test </h1>";
+?>
     <ul>
         <li>Violão</li>
         <li>Piano</li>
         <li>Baixo</li>
+        <?php echo "<li>Baixo 2</li>"?>
     </ul>
 </body>
 </html>
