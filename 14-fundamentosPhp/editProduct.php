@@ -1,7 +1,6 @@
 <?php
     include 'connect.php';
 
-
     $id = $_GET['idProduto'];
     $sql="select * from produto where IdProduto={$id}";
     $query= mysqli_query($con, $sql);
